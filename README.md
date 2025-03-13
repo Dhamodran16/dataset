@@ -17,50 +17,84 @@ View files in a selected folder with serial numbers.
 The app is designed to be simple and user-friendly, with a sidebar interface for folder management and file uploads.
 
 Features
+
+
 Folder Management:
+
 
 Create new folders.
 
+
 Select existing folders to view or manage files.
+
 
 File Upload:
 
+
 Upload multiple images at once.
+
 
 Supported formats: PNG, JPG, JPEG, WEBP.
 
+
 File Conversion:
+
 
 Automatically converts PNG and WEBP images to JPG format.
 
+
 File Renaming:
+
 
 Customizable renaming pattern (e.g., image_TIMESTAMP).
 
+
 File Listing:
+
 
 View files in the selected folder with serial numbers.
 
+
 Prerequisites
+
+
 Before running the app, ensure you have the following installed:
+
 
 Python 3.7 or higher: Download and install Python from python.org.
 
-Streamlit: Install Streamlit using pip:
+
+Streamlit: 
+
+Install Streamlit using pip:
 
 
 pip install streamlit
-Pillow: Install Pillow for image processing:
+
+
+Pillow:
+
+Install Pillow for image processing:
 
 
 pip install Pillow
+
+
 How to Run the App Locally
+
+
 Clone the Repository:
 
 
 git clone https://github.com/your-username/streamlit-file-manager.git
+
+
 cd streamlit-file-manager
+
+
 Install Dependencies:
+
+
 Ensure all dependencies are installed by running:
 
 
@@ -68,6 +102,7 @@ pip install -r requirements.txt
 
 
 Run the Streamlit App:
+
 
 Start the app by running:
 
