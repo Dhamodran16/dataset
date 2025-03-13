@@ -48,32 +48,28 @@ Python 3.7 or higher: Download and install Python from python.org.
 
 Streamlit: Install Streamlit using pip:
 
-bash
-Copy
+
 pip install streamlit
 Pillow: Install Pillow for image processing:
 
-bash
-Copy
+
 pip install Pillow
 How to Run the App Locally
 Clone the Repository:
 
-bash
-Copy
+
 git clone https://github.com/your-username/streamlit-file-manager.git
 cd streamlit-file-manager
 Install Dependencies:
 Ensure all dependencies are installed by running:
 
-bash
-Copy
+
 pip install -r requirements.txt
 Run the Streamlit App:
 Start the app by running:
 
-bash
-Copy
+
+
 streamlit run app.st12.py
 Access the App:
 Open your browser and go to the provided URL (e.g., http://localhost:8501).
