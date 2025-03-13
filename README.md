@@ -65,6 +65,8 @@ Ensure all dependencies are installed by running:
 
 
 pip install -r requirements.txt
+
+
 Run the Streamlit App:
 
 Start the app by running:
