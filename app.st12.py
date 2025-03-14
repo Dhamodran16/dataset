@@ -5,9 +5,11 @@ from PIL import Image
 from datetime import datetime
 
 # Set Correct Base Directory
-BASE_DIR = Path("DataSet")  # Ensure correct folder name
-BASE_DIR.mkdir(exist_ok=True)  # Create if it doesn't exist
-
+#BASE_DIR = Path("DataSet")  # Ensure correct folder name
+#BASE_DIR.mkdir(exist_ok=True)  # Create if it doesn't exist
+# Use environment variable for dataset directory
+BASE_DIR = Path(os.getenv("DATASET_DIR", "DataSet"))  # Fallback to "DataSet" if env variable is missing
+BASE_DIR.mkdir(exist_ok=True)
 # Streamlit UI
 st.set_page_config(page_title="File Manager", layout="wide")
 
