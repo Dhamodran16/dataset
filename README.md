@@ -119,12 +119,16 @@ Or try the hosted version here:
 
 📂 Folder Structure
 
-
+```
 streamlit-file-manager/
 │
 ├── app.st12.py               # Main Streamlit app
 ├── requirements.txt          # Python dependencies
 └── uploads/                  # Upload folder (auto-created)
+
+
+```
+
 
 ⚠️ Notes
 The app auto-creates folders under /uploads/
