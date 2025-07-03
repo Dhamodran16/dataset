@@ -1,113 +1,112 @@
-Streamlit File Manager App
-Streamlit
-Python
+<h1 align="center">
+  <img src="https://i.ibb.co/6XZ5hV5/file-manager-icon.png" alt="File Manager Logo" width="120">
+  <br>
+  Streamlit File Manager App
+  <br>
+</h1>
 
-This is a Streamlit-based File Manager App that allows users to:
+<p align="center">
+  A powerful, user-friendly Streamlit-based application to manage, upload, convert, and rename image files in folders.
+</p>
 
-Create and manage folders.
+---
 
-Upload images (PNG, JPG, JPEG, WEBP).
+## 📌 Tech Stack
 
-Automatically convert non-JPG images (e.g., PNG, WEBP) to JPG format.
+- **Streamlit** (Frontend + App Logic)  
+- **Python** (Backend Logic)  
+- **Pillow** (Image Processing)
 
-Rename files using a customizable pattern.
+---
 
-View files in a selected folder with serial numbers.
+## 🌟 Features
 
-The app is designed to be simple and user-friendly, with a sidebar interface for folder management and file uploads.
+### 📁 Folder Management
 
-Features
+- Create new folders.
+- Select and manage existing folders.
 
+<p align="center">
+  <img src="https://i.ibb.co/KKPvF1L/folder-management.png" alt="Folder Management" width="600">
+</p>
 
-Folder Management:
+---
 
+### 📤 File Upload
 
-Create new folders.
+- Upload **multiple images** at once.
+- Supported formats: **PNG, JPG, JPEG, WEBP**
 
+<p align="center">
+  <img src="https://i.ibb.co/hgL9Z0g/file-upload.png" alt="File Upload" width="600">
+</p>
 
-Select existing folders to view or manage files.
+---
 
+### 🔁 File Conversion
 
-File Upload:
+- Automatically converts **PNG** and **WEBP** images to **JPG** format.
 
+---
 
-Upload multiple images at once.
+### ✏️ File Renaming
 
+- Customizable renaming pattern (e.g., `image_TIMESTAMP.jpg`)
 
-Supported formats: PNG, JPG, JPEG, WEBP.
+---
 
+### 📑 File Listing
 
-File Conversion:
+- View all uploaded files in the selected folder.
+- Files displayed with **serial numbers**.
 
+<p align="center">
+  <img src="https://i.ibb.co/W25XypR/file-listing.png" alt="File Listing View" width="600">
+</p>
 
-Automatically converts PNG and WEBP images to JPG format.
+---
 
+## 🔧 Prerequisites
 
-File Renaming:
+Before you run the app, make sure you have the following installed:
 
+- **Python 3.7 or higher**  
+  👉 [Download Python](https://www.python.org/downloads/)
 
-Customizable renaming pattern (e.g., image_TIMESTAMP).
+- **Streamlit**  
+  Install using pip:
 
-
-File Listing:
-
-
-View files in the selected folder with serial numbers.
-
-
-Prerequisites
-
-
-Before running the app, ensure you have the following installed:
-
-
-Python 3.7 or higher: Download and install Python from python.org.
-
-
-Streamlit: 
-
-Install Streamlit using pip:
-
-
-pip install streamlit
-
-
-Pillow:
-
-Install Pillow for image processing:
-
+  ```bash
+  pip install streamlit
 
 pip install Pillow
 
-
-How to Run the App Locally
-
-
-Clone the Repository:
-
-
+🚀 How to Run the App Locally
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/your-username/streamlit-file-manager.git
-
-
 cd streamlit-file-manager
-
-
-Install Dependencies:
-
-
-Ensure all dependencies are installed by running:
-
-
+2. Install Dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
-
-Run the Streamlit App:
-
-
-Start the app by running:
-
-
-
+3. Run the Streamlit App
+bash
+Copy
+Edit
 streamlit run app.st12.py
-Access the App:
-Open your browser and go to the provided URL (e.g., http://localhost:8501).
+🌐 Access the App
+Once the app is running, open your browser and go to:
+
+arduino
+Copy
+Edit
+http://localhost:8501
+📸 Sample Screenshots
+<p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p>
+🤝 Contributing
+Want to improve the app? PRs are welcome!
+Fork it, build it, and send a pull request.
