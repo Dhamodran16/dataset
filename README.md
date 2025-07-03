@@ -114,7 +114,7 @@ Or try the hosted version here:
 
 📸 Sample Screenshot
 
-<p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p>
+<p align="center"> <img src="Screenshot 2025-07-03 205807.png" alt="Full Interface" width="750"> </p>
 
 
 📂 Folder Structure
