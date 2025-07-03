@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://i.ibb.co/6XZ5hV5/file-manager-icon.png" alt="File Manager Logo" target="_blank" width="150">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsNj_cw0oHhnQkgAk6Ppm8IhmOaWyhC_L-2Q&s" alt="File Manager Logo" target="_blank" width="150">
   <br>
   Streamlit File Manager App
   <br>
