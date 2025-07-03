@@ -87,13 +87,14 @@ bash
 Copy
 Edit
 git clone https://github.com/your-username/streamlit-file-manager.git
+
 cd streamlit-file-manager
-2. Install Dependencies
+3. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Run the Streamlit App
+4. Run the Streamlit App
 bash
 Copy
 Edit
