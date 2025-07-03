@@ -102,4 +102,5 @@ Once the app is running, open your browser and go to:
 http://localhost:8501
 
 📸 Sample Screenshots
+```
 <p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p> ```
