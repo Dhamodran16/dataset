@@ -81,10 +81,16 @@ Pillow
 1. Clone the Repository
 
 git clone https://github.com/your-username/streamlit-file-manager.git
+
+
 cd streamlit-file-manager
+
+
 2. Install Dependencies
 
 pip install -r requirements.txt
+
+
 💡 Tip: It's recommended to use a virtual environment.
 
 3. Run the App
@@ -92,6 +98,8 @@ pip install -r requirements.txt
 streamlit run app.st12.py
 
 🌐 Access the App
+
+
 Once running, open your browser and go to:
 
 
