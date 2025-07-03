@@ -81,26 +81,25 @@ Before you run the app, make sure you have the following installed:
 
 pip install Pillow
 
-🚀 How to Run the App Locally
-1. Clone the Repository
+## 🚀 How to Run the App Locally
 
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/streamlit-file-manager.git
+cd streamlit-file-manager
 
-cd  streamlit-file-manager
-3. Install Dependencies
 
 pip install -r requirements.txt
 
-4. Run the Streamlit App
 
 streamlit run app.st12.py
+
 
 🌐 Access the App
 Once the app is running, open your browser and go to:
 
 http://localhost:8501
+
 📸 Sample Screenshots
-<p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p>
-🤝 Contributing
-Want to improve the app? PRs are welcome!
-Fork it, build it, and send a pull request.
+<p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p> ```
