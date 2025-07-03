@@ -83,28 +83,21 @@ pip install Pillow
 
 🚀 How to Run the App Locally
 1. Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/streamlit-file-manager.git
 
-cd streamlit-file-manager
+cd  streamlit-file-manager
 3. Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
 4. Run the Streamlit App
-bash
-Copy
-Edit
+
 streamlit run app.st12.py
+
 🌐 Access the App
 Once the app is running, open your browser and go to:
 
-arduino
-Copy
-Edit
 http://localhost:8501
 📸 Sample Screenshots
 <p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p>
