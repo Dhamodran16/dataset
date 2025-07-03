@@ -105,6 +105,13 @@ Once running, open your browser and go to:
 
 http://localhost:8501
 
+
+Or try the hosted version here:
+
+
+🔗 https://dataset-99t7.onrender.com
+
+
 📸 Sample Screenshot
 
 <p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p>
