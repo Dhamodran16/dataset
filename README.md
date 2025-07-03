@@ -80,7 +80,7 @@ Pillow
 🚀 How to Run the App Locally
 1. Clone the Repository
 
-git clone https://github.com/your-username/streamlit-file-manager.git
+git clone https://github.com/Dhamodran16/dataset.git
 
 
 cd streamlit-file-manager
