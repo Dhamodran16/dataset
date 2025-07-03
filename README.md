@@ -83,7 +83,7 @@ Pillow
 git clone https://github.com/Dhamodran16/dataset.git
 
 
-cd streamlit-file-manager
+cd dataset
 
 
 2. Install Dependencies
