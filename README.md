@@ -1,106 +1,122 @@
 <h1 align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6edcHS69ZxImgiIzLmaGq3b3q3zTOlLkiQ&s" alt="File Manager Logo" width="120">
+  <img src="https://i.ibb.co/6XZ5hV5/file-manager-icon.png" alt="File Manager Logo" width="150">
   <br>
   Streamlit File Manager App
   <br>
 </h1>
 
 <p align="center">
-  A powerful, user-friendly Streamlit-based application to manage, upload, convert, and rename image files in folders.
+  A Streamlit-based File Manager App that allows users to:
+  <br>
+  ➤ Create and manage folders  
+  ➤ Upload images (PNG, JPG, JPEG, WEBP)  
+  ➤ Automatically convert to JPG  
+  ➤ Rename using custom pattern  
+  ➤ View files with serial numbers  
 </p>
 
----
-
-## 📌 Tech Stack
-
-- **Streamlit** (Frontend + App Logic)  
-- **Python** (Backend Logic)  
-- **Pillow** (Image Processing)
+<p align="center">
+  <a href="https://www.python.org">
+    <img src="https://img.shields.io/badge/Python-3.9+-blue.svg?style=flat-square" alt="Python">
+  </a>
+  <a href="https://streamlit.io">
+    <img src="https://img.shields.io/badge/Streamlit-1.x-red.svg?style=flat-square" alt="Streamlit">
+  </a>
+  <a href="https://pillow.readthedocs.io">
+    <img src="https://img.shields.io/badge/Pillow-9.x-yellow.svg?style=flat-square" alt="Pillow">
+  </a>
+  <a href="https://github.com/your-username/streamlit-file-manager/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/your-username/streamlit-file-manager?style=flat-square" alt="License">
+  </a>
+</p>
 
 ---
 
 ## 🌟 Features
 
 ### 📁 Folder Management
-
-- Create new folders.
-- Select and manage existing folders.
-
-<p align="center">
-  <img src="https://i.ibb.co/KKPvF1L/folder-management.png" alt="Folder Management" width="600">
-</p>
-
----
+- Create new folders
+- Select existing folders to view/manage files
 
 ### 📤 File Upload
-
-- Upload **multiple images** at once.
-- Supported formats: **PNG, JPG, JPEG, WEBP**
-
-<p align="center">
-  <img src="https://i.ibb.co/hgL9Z0g/file-upload.png" alt="File Upload" width="600">
-</p>
-
----
+- Upload multiple images
+- Supports PNG, JPG, JPEG, WEBP
 
 ### 🔁 File Conversion
-
-- Automatically converts **PNG** and **WEBP** images to **JPG** format.
-
----
+- Auto converts PNG/WEBP to JPG after upload
 
 ### ✏️ File Renaming
-
-- Customizable renaming pattern (e.g., `image_TIMESTAMP.jpg`)
-
----
+- Rename files using a pattern like `image_TIMESTAMP.jpg`
 
 ### 📑 File Listing
-
-- View all uploaded files in the selected folder.
-- Files displayed with **serial numbers**.
-
-<p align="center">
-  <img src="https://i.ibb.co/W25XypR/file-listing.png" alt="File Listing View" width="600">
-</p>
+- View all files in the folder
+- Each file listed with serial number
 
 ---
 
-## 🔧 Prerequisites
+## 🛠 Tech Stack
 
-Before you run the app, make sure you have the following installed:
+- **Python** – Core backend logic
+- **Streamlit** – For the interactive UI
+- **Pillow** – For image processing/conversion
+
+---
+
+## 📦 Prerequisites
+
+Before running the app, make sure the following are installed:
 
 - **Python 3.7 or higher**  
   👉 [Download Python](https://www.python.org/downloads/)
 
 - **Streamlit**  
-  Install using pip:
-
   ```bash
   pip install streamlit
 
-pip install Pillow
+Pillow
 
-## 🚀 How to Run the App Locally
+```pip install Pillow ```
 
-### 1. Clone the Repository
+🚀 How to Run the App Locally
+1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/streamlit-file-manager.git
 cd streamlit-file-manager
-
+2. Install Dependencies
 
 pip install -r requirements.txt
+💡 Tip: It's recommended to use a virtual environment.
 
+3. Run the App
 
 streamlit run app.st12.py
 
-
 🌐 Access the App
-Once the app is running, open your browser and go to:
+Once running, open your browser and go to:
+
 
 http://localhost:8501
 
-📸 Sample Screenshots
-```
-<p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p> ```
+📸 Sample Screenshot
+
+<p align="center"> <img src="https://i.ibb.co/vzTtNnL/full-interface.png" alt="Full Interface" width="750"> </p>
+
+
+📂 Folder Structure
+
+
+streamlit-file-manager/
+│
+├── app.st12.py               # Main Streamlit app
+├── requirements.txt          # Python dependencies
+└── uploads/                  # Upload folder (auto-created)
+
+⚠️ Notes
+The app auto-creates folders under /uploads/
+
+Non-JPG files are auto-converted and renamed
+
+Files are listed with their names and serial number
+
+Files uploaded to the same folder will append, not overwrite
+
